@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ss-web"
+    }
+  },
+  "defaultProject": "ss-web",
+  "cli": {
+    "analytics": false
+  }
 }
