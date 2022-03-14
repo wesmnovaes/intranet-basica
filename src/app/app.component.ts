@@ -14,10 +14,6 @@ export class AppComponent {
   ngOnInit(): void {
     console.log('passei aqui')
 
-    const file = require('file-system');
-    file.readFile('./assets')
-    this.msg = 'Cheguei até aqui'
-
   }
 
 
