@@ -10,24 +10,30 @@
 	width: 100px;
 	height: 60px;
 	background-color: #ffffff;
-	margin-left: 1.5%;
+	
 	border-top-left-radius: 10px;
 	border-color: f2f5f6;
-	box-shadow: 9 10 8 rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: -11px -2px 16px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: -11px -2px 16px -16px rgba(0,0,0,0.75);
+box-shadow: -11px -2px 16px -16px rgba(0,0,0,0.75);
+
 }
 .tabs_outras{
 	width: 100px;
 	height: 60px;
 	background-color: #ffffff;
 	margin-top: 1%;
-	margin-left: 1.5%;
 	border-color: f2f5f6;
+	-webkit-box-shadow: -11px -2px 16px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: -11px -2px 16px -15px rgba(0,0,0,0.75);
+	box-shadow: -11px -2px 16px -15px rgba(0,0,0,0.75);
+
 } 
 .grid_00{
-	margin-left: -10px;
+	margin-left: 0.7%;
 }
 .grid_01{
-	margin-right: -12px;
+	margin-left: 0.7%;
 }
 
 
