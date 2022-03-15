@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SenhaComponent } from './senha/senha.component';
 import { CrudSenhasComponent } from './senha/crud-senhas/crud-senhas.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SenhaComponent,
-    CrudSenhasComponent
+    CrudSenhasComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

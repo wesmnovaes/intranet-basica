@@ -1,12 +1,12 @@
-<div class="row inline-flex">
-    <div class="col-1">
-        <div class="d-flex justify-content-end flex-wrap">
-            <div class="tabs_home ">teste</div>
-            <div class="tabs_outras">teste</div>
+<div class="row">
+    <div class="col-md-1">
+        <div class="d-flex flex-wrap justify-content-center grid_01">
+            <div class="tabs_home">teste</div>
         </div>
     </div>
-    <div class="col-11">
-        <div class="card bx-sw form-1" >
+    <div class="col-md-11">
+        <div class="d-flex justify-content-start grid_00">
+        <div class="card bx-sw form-1">
             <div class="card-header">
                 <div class="row">
                     <div class="col">
@@ -33,7 +33,7 @@
                     <tr *ngFor="let senha of DadosTabela; let i = index">
                         <th scope="row">{{i}}</th>
                         <td>{{senha.descr}}</td>
-                        <td>{{senha.end}}</td>
+                        <td> <a href="{{senha.end}}"> {{senha.end}}  </a></td>
                         <td>{{senha.login}}</td>
                         <td>{{senha.senha}}</td>
                         <td>{{senha.obs}}</td>              
@@ -42,5 +42,6 @@
                 </table>
             </div>
         </div>
+    </div>
     </div>
 </div>
