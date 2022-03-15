@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SenhaComponent } from './senha/senha.component';
+import { CrudSenhasComponent } from './senha/crud-senhas/crud-senhas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SenhaComponent
+    SenhaComponent,
+    CrudSenhasComponent
   ],
   imports: [
     BrowserModule,
