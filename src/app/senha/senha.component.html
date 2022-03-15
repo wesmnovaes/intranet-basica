@@ -1,31 +1,46 @@
-<div class="card bx-sw form-1" >
-    <div class="card-header">
-    Editar cadastro 
+<div class="row inline-flex">
+    <div class="col-1">
+        <div class="d-flex justify-content-end flex-wrap">
+            <div class="tabs_home ">teste</div>
+            <div class="tabs_outras">teste</div>
+        </div>
     </div>
-<div class="card-body">
-    <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Convênio</label>
-            <input type="text" class="form-control" id="convenio" placeholder="">
+    <div class="col-11">
+        <div class="card bx-sw form-1" >
+            <div class="card-header">
+                <div class="row">
+                    <div class="col">
+                        Tabela de senhas - HMCR
+                    </div>
+                    <div class="col">
+                        <div class="d-flex justify-content-end"> <button class="btn btn-primary"> Nova senha </button> </div>
+                    </div>
+                </div>      
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Endereço</th>
+                        <th scope="col">Login</th>
+                        <th scope="col">Senha</th>
+                        <th scope="col">Obs</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let senha of DadosTabela; let i = index">
+                        <th scope="row">{{i}}</th>
+                        <td>{{senha.descr}}</td>
+                        <td>{{senha.end}}</td>
+                        <td>{{senha.login}}</td>
+                        <td>{{senha.senha}}</td>
+                        <td>{{senha.obs}}</td>              
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Endereço</label>
-            <input type="text" class="form-control" id="end" placeholder="">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">login</label>
-            <input type="text" class="form-control" id="login" placeholder="">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Senha</label>
-            <input type="text" class="form-control" id="senha" placeholder="">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Complemento</label>
-            <input type="text" class="form-control" id="complemento" placeholder="">
-        </div>
-        <button type="submit" class="btn btn-primary btn-passwd">Salvar</button>
-        <button type="submit" class="btn btn-warning">Cancelar</button>
-    </form>
-  </div>
+    </div>
 </div>
