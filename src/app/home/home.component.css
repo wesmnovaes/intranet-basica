@@ -2,11 +2,21 @@
     margin-top: 3%;
     height: 400px;
 }
+.card-feed-home{
+    height: auto;
+}
 .card-header{
     border-top-right-radius:10px;
 	font-size:16px;
 	letter-spacing:1;
     color: #fcfcfc;
     background:#4caaed;
-    
 } 
+.card-header-post{
+    border-top-right-radius:10px;
+	font-size:16px;
+	letter-spacing:1;
+} 
+.card{
+    border-top-right-radius:10px;
+}

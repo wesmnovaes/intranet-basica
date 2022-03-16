@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SenhaComponent } from './senha/senha.component';
 import { CrudSenhasComponent } from './senha/crud-senhas/crud-senhas.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SenhaComponent,
     CrudSenhasComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,5 @@
 <div class="row">
-    <div class="row d-flex align-content-end">
-        <span> Hospital e Maternidade Cristo Rei </span>
-    </div>
+    
     <div class="col-md-1 d-flex flex-wrap">
         <div class="grid_01">
             <div class="tabs_home d-flex justify-content-center align-self-center" [routerLink]="['/']" routerLinkActive="router-link-active">
@@ -28,7 +26,7 @@
     </div>
     <div class="col-md-11">
         <div class="d-flex justify-content-start grid_00">
-        <div class="card bx-sw form-1">
+        <div class="card bx-sw">
             <div class="card-body">
                 <div class="row">
                     <div class="col-8">
@@ -37,17 +35,28 @@
                             Comunicados
                             </div>
                             <div class="card-body">  
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h5 class="card-title">Autorização Amil - Covid-19</h5>
+                                <div class="card card-feed-home">
+                                    <div class="card-header-post">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="../../assets/avatar_profile_w.png">
+                                            </div>
+                                            <div class="col d-flex">
+                                                <h5 class="card-title align-self-center">Autorização Amil - Covid-19</h5>
+                                                <br> <hr style="width:50%">
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="card-body">
-                                        
-                                        <p class="card-text">A partir do dia 19/03, todos os acompanhantes terão de realizar o teste de covid-19 <br> para poder acompanhar o(a) paciente internado</p>
+                                        <p class="card-text"> 
+                                       
+                                        {{teste}}
+                                  
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="card card_feed">
-                                    <div class="card-header">
+                                    <div class="card-header-post">
                                         <h5 class="card-title">Nova regra de acompanhantes</h5>
                                     </div>
                                     <div class="card-body">
