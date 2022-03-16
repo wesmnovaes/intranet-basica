@@ -4,6 +4,8 @@
 }
 .card-feed-home{
     height: auto;
+    margin-bottom: 3%;
+    
 }
 .card-header{
     border-top-right-radius:10px;
@@ -19,4 +21,32 @@
 } 
 .card{
     border-top-right-radius:10px;
+}
+.profile{
+    margin-left: 13%;
+    margin-top: 9%;
+}
+.card-titulo{
+    height: 130px;
+}
+.data-card{
+    margin-top: -3%;
+    margin-right: 2%;
+    color: #4caaed;
+    font-style: italic;
+    font-size: small;
+}
+.card-autor{
+    margin-left: 12%;
+}
+.card-sw{
+    -webkit-box-shadow: 1px 2px 23px -9px rgba(0,0,0,0.22);
+    -moz-box-shadow: 1px 2px 23px -9px rgba(0,0,0,0.22);
+    box-shadow: 1px 2px 23px -9px rgba(0,0,0,0.22);
+}
+.card-sw-post{
+    -webkit-box-shadow: 1px 2px 18px -7px rgba(0,0,0,0.22);
+-moz-box-shadow: 1px 2px 18px -7px rgba(0,0,0,0.22);
+box-shadow: 1px 2px 18px -7px rgba(0,0,0,0.22);
+
 }

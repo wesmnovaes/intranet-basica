@@ -40,3 +40,16 @@ body{
 .grid_01{
 	margin-left: 0.7%;
 }
+
+.tt1{
+background-color: blue;
+}
+.tt2{
+	background-color: red;
+}
+.tt3{
+	background-color: yellow;
+}
+.tt4{
+	background-color: green;
+}

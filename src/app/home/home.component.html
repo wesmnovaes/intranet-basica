@@ -1,5 +1,4 @@
 <div class="row">
-    
     <div class="col-md-1 d-flex flex-wrap">
         <div class="grid_01">
             <div class="tabs_home d-flex justify-content-center align-self-center" [routerLink]="['/']" routerLinkActive="router-link-active">
@@ -30,45 +29,37 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-8">
-                        <div class="card">
+                        <div class="card card-sw">
                             <div class="card-header">
-                            Comunicados
+                                Comunicados
                             </div>
                             <div class="card-body">  
-                                <div class="card card-feed-home">
+                                <div *ngFor="let card of cards" class="card card-feed-home card-sw-post">
                                     <div class="card-header-post">
                                         <div class="row">
                                             <div class="col-4">
-                                                <img src="../../assets/avatar_profile_w.png">
+                                                <div class="row">
+                                                    <div class="profile">
+                                                        <img src="../../assets/avatar_profile_w.png">
+                                                    </div>                                         
+                                                </div>
+                                                <div class="row">
+                                                    <small class="card-autor">{{card.autor}}</small>
+                                                </div> 
                                             </div>
-                                            <div class="col d-flex">
-                                                <h5 class="card-title align-self-center">Autorização Amil - Covid-19</h5>
-                                                <br> <hr style="width:50%">
+                                            <div class="col-8">
+                                                <div class="row d-flex align-items-center  card-titulo">
+                                                    <div>
+                                                        <h5 class="card-title d-flex justify-content-start">{{card.titulo}}</h5>
+                                                        <hr style="width:100%"> 
+                                                        <div class="d-flex justify-content-end data-card">{{card.data_criacao}} </div>
+                                                    </div>
+                                                </div>                                      
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                        <p class="card-text"> 
-                                       
-                                        {{teste}}
-                                  
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card card_feed">
-                                    <div class="card-header-post">
-                                        <h5 class="card-title">Nova regra de acompanhantes</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">A partir do dia 19/03, todos os acompanhantes terão de realizar o teste de covid-19 <br> para poder acompanhar o(a) paciente internado</p>
-                                    </div>
-                                </div>
-                                <div class="card card_feed">
-                                    <div class="card-header">
-                                        <h5 class="card-title">Uso da máscara</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">A partir do dia 19/03, todos os acompanhantes terão de realizar o teste de covid-19 <br> para poder acompanhar o(a) paciente internado</p>
+                                        <p class="card-text">{{card.conteudo}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +67,7 @@
                     </div>
                     <div class="col-4">
                         <div class="row">
-                            <div class="card">
+                            <div class="card card-sw">
                                 <div class="card-header">
                                         Treinamento & POP'S
                                 </div>
