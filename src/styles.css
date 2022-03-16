@@ -4,3 +4,39 @@ body{
    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(57,161,235,0.9332107843137255) 100%);
 
 }
+.tabs_home{
+	width: 100px;
+	height: 90px;
+	background-color: #ffffff;
+	border-top-left-radius: 10px;
+	border-color: f2f5f6;
+	-webkit-box-shadow: -11px -2px 16px -16px rgba(0,0,0,0.75);
+	-moz-box-shadow: -11px -2px 16px -16px rgba(0,0,0,0.75);
+	box-shadow: -11px -2px 16px -16px rgba(0,0,0,0.75);
+
+}
+.tabs_home:hover {
+	background-color: yellow;
+}
+.tabs_outras:hover {
+	background-color: yellow;
+}
+.tabs_home:visited {
+	color: green;
+}
+.tabs_outras{
+	width: 100px;
+	height: 90px;
+	background-color: #ffffff;
+	margin-top: 1%;
+	border-color: f2f5f6;
+	-webkit-box-shadow: -11px -2px 16px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: -11px -2px 16px -15px rgba(0,0,0,0.75);
+	box-shadow: -11px -2px 16px -15px rgba(0,0,0,0.75);
+} 
+.grid_00{
+	margin-left: 0.7%;
+}
+.grid_01{
+	margin-left: 0.7%;
+}

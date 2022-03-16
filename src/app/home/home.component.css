@@ -1,0 +1,12 @@
+.card_feed{
+    margin-top: 3%;
+    height: 400px;
+}
+.card-header{
+    border-top-right-radius:10px;
+	font-size:16px;
+	letter-spacing:1;
+    color: #fcfcfc;
+    background:#4caaed;
+    
+} 
