@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-crud-senhas',
@@ -7,9 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrudSenhasComponent implements OnInit {
 
+  formdata;
+  formobs;
+
   constructor() { }
 
   ngOnInit(): void {
+    
+    this.formdata = new FormGroup({
+      descr: new FormControl(),
+      end: new FormControl(),
+      login: new FormControl(),
+      senha: new FormControl(),
+      obs: new FormControl()
+    })
+  }
+
+  onClickSubmit(data){
+    this.formobs = data.obs
   }
 
 }
