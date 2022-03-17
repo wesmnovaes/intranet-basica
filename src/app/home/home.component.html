@@ -68,36 +68,46 @@
                     <div class="col-4">
                         <div class="row">
                             <div class="card card-sw">
-                                <div class="card-header">
-                                        Treinamento & POP'S
+                                <div class="card-header"> 
+                                    Avisos e circulares
                                 </div>
                                 <div class="card-body">
-                                    <div *ngFor="let artigo of artigos" class="row">
+                                    <div *ngFor="let aviso of avisos" class="row card-avisos">
                                         <div class="col-2">
                                             <img [src]="autor_avatar" width="33px" height="33px">
-                                            
+                                        </div>
+                                        <div class="col">
+                                            <div class="row">
+                                                {{aviso.titulo}}
+                                            </div>
+                                            <div class="row">
+                                               <small style="font-style: italic;">por: {{aviso.autor}}</small> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#">Ver todos os avisos <img src="../../assets/ver_mais.png"> </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card card_treinamento">
+                                <div class="card-header">
+                                    Treinamento & POP'S
+                                </div>
+                                <div class="card-body">
+                                    <div *ngFor="let artigo of artigos" class="row card-avisos">
+                                        <div class="col-2">
+                                            <img src="../../assets/folder_yellow_icon.png" width="23px" height="23px">
                                         </div>
                                         <div class="col">
                                             <div class="row">
                                                 {{artigo.titulo}}
                                             </div>
                                             <div class="row">
-                                               <small>{{artigo.autor}}</small> 
+                                              <small style="font-style: italic;"> por: {{artigo.autor}}</small>  
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="#">Ver todos os artigos <img src="../../assets/ver_mais.png"> </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="card card_feed">
-                                <div class="card-header">
-                                        Outros avisos e circulares
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Autorização Amil - Covid-19</h5>
-                                    <p class="card-text">A partir do dia 19/03, todos os acompanhantes terão de realizar o teste de covid-19 <br> para poder acompanhar o(a) paciente internado</p>
                                     <a href="#">Ver todos os avisos <img src="../../assets/ver_mais.png"> </a>
                                 </div>
                             </div>
