@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-8">
                         <div class="card card-sw">
-                            <div class="card-header">
+                            <div class="card-header card-header-feed">
                                 Comunicados
                             </div>
                             <div class="card-body">  
@@ -72,8 +72,20 @@
                                         Treinamento & POP'S
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Autorização Amil - Covid-19</h5>
-                                    <p class="card-text">A partir do dia 19/03, todos os acompanhantes terão de realizar o teste de covid-19 <br> para poder acompanhar o(a) paciente internado</p>
+                                    <div *ngFor="let artigo of artigos" class="row">
+                                        <div class="col-2">
+                                            <img [src]="autor_avatar" width="33px" height="33px">
+                                            
+                                        </div>
+                                        <div class="col">
+                                            <div class="row">
+                                                {{artigo.titulo}}
+                                            </div>
+                                            <div class="row">
+                                               <small>{{artigo.autor}}</small> 
+                                            </div>
+                                        </div>
+                                    </div>
                                     <a href="#">Ver todos os artigos <img src="../../assets/ver_mais.png"> </a>
                                 </div>
                             </div>

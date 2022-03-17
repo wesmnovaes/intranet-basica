@@ -13,6 +13,16 @@
 	letter-spacing:1;
     color: #fcfcfc;
     background:#4caaed;
+    margin-left: -3.9%;
+    margin-right: -3.9%;
+} 
+.card-header-feed{
+    border-top-right-radius:10px;
+	font-size:16px;
+	letter-spacing:1;
+    color: #fcfcfc;
+    background:#4caaed;
+    margin: 0%;
 } 
 .card-header-post{
     border-top-right-radius:10px;
@@ -46,7 +56,6 @@
 }
 .card-sw-post{
     -webkit-box-shadow: 1px 2px 18px -7px rgba(0,0,0,0.22);
--moz-box-shadow: 1px 2px 18px -7px rgba(0,0,0,0.22);
-box-shadow: 1px 2px 18px -7px rgba(0,0,0,0.22);
-
+    -moz-box-shadow: 1px 2px 18px -7px rgba(0,0,0,0.22);
+    box-shadow: 1px 2px 18px -7px rgba(0,0,0,0.22);
 }
