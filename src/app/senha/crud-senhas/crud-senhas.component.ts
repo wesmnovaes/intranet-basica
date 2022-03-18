@@ -25,7 +25,7 @@ export class CrudSenhasComponent implements OnInit {
   }
 
   onClickSubmit(data){
-    this.formobs = data.obs
+    //servico_aqui
   }
 
 }

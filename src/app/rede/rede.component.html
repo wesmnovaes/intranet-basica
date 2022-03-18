@@ -11,7 +11,7 @@
                     <img src="../../assets/key.png">
                 </div>
             </div>
-            <div class="tabs_outras d-flex justify-content-center" [routerLink]="['/rede']" routerLinkActive="router-link-active" >
+            <div class="tabs_outras d-flex justify-content-center" [routerLink]="['/redes']" routerLinkActive="router-link-active" >
                 <div class="d-flex align-self-center">
                     <img src="../../assets/wifi.png">
                 </div>
@@ -29,7 +29,7 @@
             <div class="card-header">
                 <div class="row">
                     <div class="col">
-                        <h5>Tabela de senhas - HMCR </h5> 
+                        <h5>Tabela de redes - HMCR</h5>
                     </div>
                     <div class="col">
                         <div class="d-flex justify-content-end"> <button class="btn btn-primary" [routerLink]="['/nova-senha']" routerLinkActive="router-link-active" > Nova senha </button> </div>
@@ -41,21 +41,23 @@
                     <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Descrição</th>
+                        <th scope="col">SSID</th>
                         <th scope="col">Endereço</th>
-                        <th scope="col">Login</th>
                         <th scope="col">Senha</th>
-                        <th scope="col">Obs</th>
+                        <th scope="col">Login ADM</th>
+                        <th scope="col">Senha ADM</th>                        
+                        <th scope="col">Ações</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr *ngFor="let senha of DadosTabela; let i = index">
+                    <tr *ngFor="let rede of DadosTabela; let i = index">
                         <th scope="row">{{i}}</th>
-                        <td>{{senha.descr}}</td>
-                        <td> <a href="{{senha.end}}"> {{senha.end}}  </a></td>
-                        <td>{{senha.login}}</td>
-                        <td>{{senha.senha}}</td>
-                        <td>{{senha.obs}}</td>              
+                        <td>{{rede.ssid}}</td>
+                        <td> <a href="{{rede.end}}"> {{rede.end}}  </a></td>
+                        <td>{{rede.login}}</td>
+                        <td>{{rede.senha}}</td>
+                        <td>{{rede.senha_adm}}</td>    
+                        <td></td>          
                     </tr>
                     </tbody>
                 </table>
