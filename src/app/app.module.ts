@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RedeComponent } from './rede/rede.component';
+import { CrudRedeComponent } from './rede/crud-rede/crud-rede.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RedeComponent } from './rede/rede.component';
     CrudSenhasComponent,
     HomeComponent,
     LoginComponent,
-    RedeComponent
+    RedeComponent,
+    CrudRedeComponent
   ],
   imports: [
     BrowserModule,

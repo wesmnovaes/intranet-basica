@@ -9,7 +9,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 export class CrudSenhasComponent implements OnInit {
 
   formdata;
-  formobs;
+  
 
   constructor() { }
 
