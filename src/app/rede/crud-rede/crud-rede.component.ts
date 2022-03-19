@@ -9,13 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class CrudRedeComponent implements OnInit {
 
   formdata;
-
-  ssid
-      end
-      pwd
-      login
-      adm_pwd
-      obs
+  
   constructor() { }
 
   ngOnInit(): void {
@@ -31,12 +25,6 @@ export class CrudRedeComponent implements OnInit {
   }
   
   onClickSubmit(data){
-    
-    this.ssid = data.ssid
-      this.end = data.end
-      this.pwd = data.pwd
-      this.login = data.login
-      this.adm_pwd = data.adm_pwd
-      this.obs = data.obs
+  //servico aqui
   }
 }

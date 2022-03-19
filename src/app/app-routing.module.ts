@@ -11,7 +11,7 @@ import { CrudRedeComponent } from './rede/crud-rede/crud-rede.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},  
   {path: 'login', component: LoginComponent},
-  {path: 'rede', component: RedeComponent},
+  {path: 'redes', component: RedeComponent},
   {path: 'nova-rede', component: CrudRedeComponent},
   {path: 'senhas', component: SenhaComponent},
   {path: 'nova-senha', component: CrudSenhasComponent}

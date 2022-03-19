@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RedeComponent implements OnInit {
 
-  DadosTabela = [ {ssid: "HMCRD", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022"},
-                  {ssid: "HMC", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022"},
-                  {ssid: "HMCR_2G TI", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022"},
-                  {ssid: "FATURAMENTO", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022"},
-                  {ssid: "PACIENTE", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022"}
+  DadosTabela = [ {ssid: "HMCRD", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022",obs: 'Isto é um comentário que quebrará o tamanho da tabela'},
+                  {ssid: "HMC", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022", obs: 'Isto é um comentário que quebrará o tamanho da tabela'},
+                  {ssid: "HMCR_2G TI", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022", obs: 'Isto é um comentário que quebrará o tamanho da tabela'},
+                  {ssid: "FATURAMENTO", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022", obs: 'Isto é um comentário que quebrará o tamanho da tabela'},
+                  {ssid: "PACIENTE", end: "192.168.1.1", login: "admin", senha: 'hmcrSENHA2022',  senha_adm: "hmcrSENHA2022", obs: 'Isto é um comentário que quebrará o tamanho da tabela'}
                   
                 ];
 

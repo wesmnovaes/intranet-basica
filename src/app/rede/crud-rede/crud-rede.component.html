@@ -50,7 +50,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="senha">Senha</label>
-                                    <input type="password" class="form-control" placeholder="Senha" id="senha" formControlName="senha" name="senha" >
+                                    <input type="password" class="form-control" placeholder="Senha" id="senha" formControlName="pwd" name="senha" >
                                 </div>
                                 <div class="form-group">
                                     <label for="login">login</label>
@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="senha">Senha Adm</label>
-                                    <input type="password" class="form-control" placeholder="Senha do Adm" id="senha" formControlName="senha_adm" name="senha_adm" >
+                                    <input type="password" class="form-control" placeholder="Senha do Adm" id="senha" formControlName="adm_pwd" name="senha_adm" >
                                 </div>
                                 <div class="form-group">
                                     <label for="obs">Complemento</label>
@@ -68,7 +68,7 @@
                                     <div class="col-12">
                                         <div class="d-flex justify-content-end">
                                             <button type="submit" class="btn btn-primary btn-nova-senha">Salvar</button>
-                                            <button [routerLink]="['/rede']" routerLinkActive="router-link-active"  class="btn btn-warning btn-nova-senha">Cancelar</button>
+                                            <button [routerLink]="['/redes']" routerLinkActive="router-link-active"  class="btn btn-warning btn-nova-senha">Cancelar</button>
                                         </div>
                                     </div>
                                 </div>
@@ -80,9 +80,3 @@
         </div>
     </div>
 </div>
-{{ssid}}
-    {{    end}}
-        {{pwd}}
-            {{login}}
-                {{adm_pwd}}
-                    {{obs}}

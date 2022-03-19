@@ -51,16 +51,29 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr *ngFor="let rede of DadosTabela; let i = index">
-                        <th scope="row">{{i}}</th>
-                        <td>{{rede.ssid}}</td>
-                        <td> <a href="{{rede.end}}"> {{rede.end}}  </a></td>
-                        <td>{{rede.login}}</td>
-                        <td>{{rede.senha}}</td>
-                        <td>{{rede.senha_adm}}</td>    
-                        <td>{{rede.obs}}</td>  
-                        <td></td>          
-                    </tr>
+                        <tr *ngFor="let rede of DadosTabela; let i = index">
+                            <th scope="row">{{i}}</th>
+                            <td>{{rede.ssid}}</td>
+                            <td> <a href="{{rede.end}}"> {{rede.end}}  </a></td>
+                            <td>{{rede.login}}</td>
+                            <td>{{rede.senha}}</td>
+                            <td>{{rede.senha_adm}}</td>    
+                            <td>{{rede.obs}}</td>  
+                            <td>
+                                <div class="d-flex no-wrap"> 
+                                    <div class="btn-acoes-editar d-flex justify-content-center">
+                                        <div class="d-flex align-self-center">
+                                            <a href="" alt="Excluir"> <img src="../../assets/edit_btn.png"> </a>
+                                        </div>
+                                    </div>
+                                    <div class="btn-acoes-excluir d-flex justify-content-center">
+                                        <div class=" d-flex align-self-center">
+                                            <a href="" alt="Excluir"> <img src="../../assets/danger_button.png"> </a>
+                                        </div>
+                                    </div >
+                                </div> 
+                            </td>          
+                        </tr>
                     </tbody>
                 </table>
             </div>
