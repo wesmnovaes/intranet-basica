@@ -46,6 +46,7 @@
                         <th scope="col">Login</th>
                         <th scope="col">Senha</th>
                         <th scope="col">Obs</th>
+                        <th scope="col">Ações</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -55,7 +56,21 @@
                         <td> <a href="{{senha.end}}"> {{senha.end}}  </a></td>
                         <td>{{senha.login}}</td>
                         <td>{{senha.senha}}</td>
-                        <td>{{senha.obs}}</td>              
+                        <td>{{senha.obs}}</td>
+                        <td>
+                            <div class="d-flex no-wrap"> 
+                                <div class="btn-acoes-editar d-flex justify-content-center">
+                                    <div class="d-flex align-self-center">
+                                        <a href="" alt="Excluir"> <img src="../../assets/edit_btn.png"> </a>
+                                    </div>
+                                </div>
+                                <div class="btn-acoes-excluir d-flex justify-content-center">
+                                    <div class=" d-flex align-self-center">
+                                        <a href="" alt="Excluir"> <img src="../../assets/danger_button.png"> </a>
+                                    </div>
+                                </div >
+                            </div> 
+                        </td>              
                     </tr>
                     </tbody>
                 </table>
