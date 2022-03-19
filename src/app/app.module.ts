@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RedeComponent } from './rede/rede.component';
 import { CrudRedeComponent } from './rede/crud-rede/crud-rede.component';
+import { ArtigosComponent } from './artigos/artigos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CrudRedeComponent } from './rede/crud-rede/crud-rede.component';
     HomeComponent,
     LoginComponent,
     RedeComponent,
-    CrudRedeComponent
+    CrudRedeComponent,
+    ArtigosComponent
   ],
   imports: [
     BrowserModule,

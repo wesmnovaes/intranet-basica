@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { CrudSenhasComponent } from './senha/crud-senhas/crud-senhas.component';
 import { RedeComponent } from './rede/rede.component';
 import { CrudRedeComponent } from './rede/crud-rede/crud-rede.component';
+import { ArtigosComponent } from './artigos/artigos.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},  
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path: 'redes', component: RedeComponent},
   {path: 'nova-rede', component: CrudRedeComponent},
   {path: 'senhas', component: SenhaComponent},
-  {path: 'nova-senha', component: CrudSenhasComponent}
+  {path: 'nova-senha', component: CrudSenhasComponent},
+  {path: 'artigos', component: ArtigosComponent} // Revisar
   
 ];
 
