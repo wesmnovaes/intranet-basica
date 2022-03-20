@@ -69,28 +69,34 @@ background-color: blue;
     margin-top: 2%;
 }
 .btn-acoes-excluir{
-	width: 50px;
-	height: 45px;
+	width: 25px;
+	height: 25px;
 	background-color: rgb(245, 102, 102);
 	border-radius: 50px;
 }
 .btn-acoes-excluir:hover{
-	width: 50px;
-	height: 45px;
+	width: 25px;
+	height: 25px;
 	background-color: rgb(243, 136, 136);
 	border-radius: 50px;
 }
 .btn-acoes-editar{
 	margin-right: 10%;
-	width: 55px;
-	height: 45px;
+	width: 25px;
+	height: 25px;
 	background-color: rgb(243, 245, 102);
-	border-radius: 50px;
+	/*border-radius: 50px;*/
 }
 .btn-acoes-editar:hover{
-	width: 55px;
-	height: 45px;
+	width: 25px;
+	height: 25px;
 	border-radius: 50px;
 	background-color: rgb(236, 238, 139);
-	
+}
+.link-ver-mais:hover{
+background-color: rgb(163, 180, 255);
+width: 65%;
+border-radius: 10px;
+padding-left: 5px;
+cursor: pointer;
 }
