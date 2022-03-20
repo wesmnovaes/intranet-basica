@@ -8,6 +8,8 @@ import { CrudSenhasComponent } from './senha/crud-senhas/crud-senhas.component';
 import { RedeComponent } from './rede/rede.component';
 import { CrudRedeComponent } from './rede/crud-rede/crud-rede.component';
 import { ArtigosComponent } from './artigos/artigos.component';
+import { CircularesComponent } from './circulares/circulares.component';
+import { ConfigComponent } from './config/config.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},  
@@ -16,8 +18,9 @@ const routes: Routes = [
   {path: 'nova-rede', component: CrudRedeComponent},
   {path: 'senhas', component: SenhaComponent},
   {path: 'nova-senha', component: CrudSenhasComponent},
-  {path: 'artigos', component: ArtigosComponent} // Revisar
-  
+  {path: 'artigos', component: ArtigosComponent}, 
+  {path: 'circulares', component: CircularesComponent},
+  {path: 'config', component: ConfigComponent}
 ];
 
 @NgModule({

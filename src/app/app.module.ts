@@ -11,6 +11,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { RedeComponent } from './rede/rede.component';
 import { CrudRedeComponent } from './rede/crud-rede/crud-rede.component';
 import { ArtigosComponent } from './artigos/artigos.component';
+import { CircularesComponent } from './circulares/circulares.component';
+import { ConfigComponent } from './config/config.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ArtigosComponent } from './artigos/artigos.component';
     LoginComponent,
     RedeComponent,
     CrudRedeComponent,
-    ArtigosComponent
+    ArtigosComponent,
+    CircularesComponent,
+    ConfigComponent
   ],
   imports: [
     BrowserModule,
