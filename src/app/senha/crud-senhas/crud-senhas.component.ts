@@ -10,7 +10,6 @@ export class CrudSenhasComponent implements OnInit {
 
   formdata;
   
-
   constructor() { }
 
   ngOnInit(): void {
