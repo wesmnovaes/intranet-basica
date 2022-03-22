@@ -35,15 +35,23 @@
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-6 ">
                         <div class="row">
-                            Novo usuário
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary"> Novo usuário</button>
+                            </div>
                         </div>
                         <div class="row">
-                            Editar usuário
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-warning"> Aterar outro usuário</button>
+                                <!-- label for="user">Editar usuário: </label>
+                                <select name="user" id="user">
+                                  <option *ngFor="let user of users" value="user.id">{{user.nome}}</option>               
+                                </select-->
+                            </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 d-flex justify-content-start">
                         <img src="../../assets/user.png">
                     </div>
                 </div> 

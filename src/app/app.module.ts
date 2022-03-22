@@ -13,6 +13,7 @@ import { CrudRedeComponent } from './rede/crud-rede/crud-rede.component';
 import { ArtigosComponent } from './artigos/artigos.component';
 import { CircularesComponent } from './circulares/circulares.component';
 import { ConfigComponent } from './config/config.component';
+import { CrudUsuarioComponent } from './config/crud-usuario/crud-usuario.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ConfigComponent } from './config/config.component';
     CrudRedeComponent,
     ArtigosComponent,
     CircularesComponent,
-    ConfigComponent
+    ConfigComponent,
+    CrudUsuarioComponent
   ],
   imports: [
     BrowserModule,
