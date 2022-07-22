@@ -27,9 +27,10 @@ services:
         - "8000:8000"
   web:
     image: nginx
+    container_name: nginx-container
     volumes:
       - ./nginx/conf:/etc/nginx/conf.d/
-      - ../Frontend/dist:/var/www
+      - ../Frontend/dist/ss-web:/var/www
     networks: 
         default:
           aliases: 
